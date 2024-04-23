@@ -1,0 +1,160 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+}
+.search-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #003A9B;
+   
+}
+#title {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+label{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 20px;
+}
+#student-id {
+    width: 100%; 
+    padding: 10px;  
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+.job-holder{
+    width: 30%;
+
+}
+.label-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   
+}
+  
+
+#student_id:hover,
+#studet_id-input:focus {
+    border-color: #66afe9;
+}
+
+
+#recommend-btn{
+    background-color: #4CAF50;
+    width: 40%;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Hover effect */
+  .recommend-btn:hover {
+    background-color: #45a049; 
+  }
+
+/* STYLE OF TABLE */
+
+
+.job-container{
+    width: 80%;
+}
+.job-table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  
+}
+
+.job-table th, .job-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.job-table th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.job-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.job-table tr td {
+    
+}
